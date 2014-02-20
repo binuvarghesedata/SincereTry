@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+     <title>Hello Html5</title>
+</head>
+<body>
+
+	<button id="btnDoIt">Do it</button>
+	<button id="btnClear">Clear</button>
+	<div id="dvResults"></div>
+	
+
+	<script src="js/zepto.js"></script>
+	<script src="js/mytest.js"></script>
+	<script type="text/javascript">
+		$('#btnDoIt').click(function(){
+		myTest.DoIt($('#dvResults'));
+}
+);
+
+$('#btnClear').click(function(){
+		$('#dvResults').html('');
+}
+);
+
+
+
+	</script>
+</body>
+
+</html>
